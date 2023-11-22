@@ -25,6 +25,6 @@ export class CreateUserController {
             }
         })
 
-        return res.json(user)
+        return res.status(201).json(user)
     }
 }
